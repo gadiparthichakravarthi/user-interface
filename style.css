@@ -1,0 +1,46 @@
+
+body {
+	width:600px;
+}
+
+header h1 {
+	float:left ;
+	width : 200px;
+}
+header p  {
+	float: right;
+	width : 400px;
+	
+}
+
+
+hr {
+	width: 600px;
+}
+
+
+.comment-input {
+	float: left;
+	width: 300px;
+}
+.comments {
+	float:right;
+	width: 300px;
+}
+
+
+.comments p:nth-child(even)
+{
+	background: #DCC6E0;
+
+}
+.comments p:nth-child(odd)
+{
+	background: #BF55EC;
+}
+footer p {
+
+	width :600px;
+
+
+}
